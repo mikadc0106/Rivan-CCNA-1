@@ -34,7 +34,7 @@ conf t
    allow watch
    name 2224
   voice register pool 1
-    id mac #mym0bilemac#
+    id mac 3e66.d4e7.6030
     number 1 dn 1
     dtmf-relay sip-notify
     username 2223 password 2223
@@ -89,3 +89,4 @@ application
   param number-of-hunt-grps 4
 
   end
+
