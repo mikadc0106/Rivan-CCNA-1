@@ -40,7 +40,7 @@ conf t
     username 2223 password 2223
     codec g711ulaw
   voice register pool 2
-    id mac #othm0bilemac#
+    id mac 3e66.d4e7.6030
     number 1 dn 2
     dtmf-relay sip-notify
     username 2232 password 2232
@@ -89,4 +89,5 @@ application
   param number-of-hunt-grps 4
 
   end
+
 
