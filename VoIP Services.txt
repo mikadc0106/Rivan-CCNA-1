@@ -20,7 +20,7 @@ conf t
    registrar server expires max 600 min 60
  voice register global
   mode cme
-  source-address 10.22.100.1 port 5060
+  source-address 10.22.100.8 port 5060
   max-dn 12
   max-pool 12
   authenticate register
@@ -89,5 +89,6 @@ application
   param number-of-hunt-grps 4
 
   end
+
 
 
